@@ -1,22 +1,22 @@
 {%load static%}
-<link rel="stylesheet" type="text/css" href="{% static 'styles/style.css' %}">
 <html>
+<link rel="stylesheet" type="text/css" href="{% static 'styles/style.css' %}">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+<title>Josh Smith</title>
+<div class="wrapper">
+    <div class="left">
     <head>
-        <img src="{% static 'images/me.jpg' %}" width=300/>
-        <meta charset="utf-8">
-        <title>Josh Smith</title>
-    </head>
-    <body>
+        <img class="profile-picture" src="{% static 'images/me.jpg' %}" width=200/>
         <h1>Josh Smith</h1>
-        <li>
-            <a href="/about/">
-                About Me
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/joshers89">
-                Github
-            </a>
-        </li>
+    </head>
+    </div>
+    <div class="right">
+        <p>Current EPA employee. Main programming language is python.
+            Experience with big data, ETL, and machine learning.</p>
+    <body>
+        <li><a href="https://github.com/joshers89">Github</a></li>
     </body>
+    </div>
+</div>
 </html>
+

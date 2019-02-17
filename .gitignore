@@ -4,3 +4,4 @@ personalsite/__pycache__
 .idea
 mysite/__pycache__
 mysite/static/images
+db.sqlite3
