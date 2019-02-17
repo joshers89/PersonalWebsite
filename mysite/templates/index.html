@@ -1,10 +1,22 @@
+{%load static%}
+<link rel="stylesheet" type="text/css" href="{% static 'styles/style.css' %}">
 <html>
     <head>
+        <img src="{% static 'images/me.jpg' %}" width=300/>
         <meta charset="utf-8">
         <title>Josh Smith</title>
     </head>
     <body>
         <h1>Josh Smith</h1>
-     <a href="/about/">About Me</a>
+        <li>
+            <a href="/about/">
+                About Me
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/joshers89">
+                Github
+            </a>
+        </li>
     </body>
 </html>

@@ -2,3 +2,5 @@ personalsite/key.py
 venv
 personalsite/__pycache__
 .idea
+mysite/__pycache__
+mysite/static/images
